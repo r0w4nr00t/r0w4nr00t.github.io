@@ -68,10 +68,36 @@
       <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Researcher,Physicist"></span></p>
     </div>
     <br><br>
+
     <div class="hero-container" data-aos="fade-in">
-      <h1>FOREVER YOUNG FOREVER FOOLISH</h1>
-      <p>I'm <span class="typed" data-typed-items="'a mind forever voyaging through the strange seas of thought '"></span></p>
+      <h4>FOREVER YOUNG FOREVER FOOLISH</h4>
+      <p><span class="animated-text" >a mind forever voyaging through the strange seas of thought</span></p>
     </div>
+
+    <style>
+      .animated-text {
+        font-family: Arial, sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #333;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        margin: 50px;
+        padding: 10px;
+        background-color:None;
+        border: 2px solid #333;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        white-space: nowrap; /* Prevents text from wrapping */
+        overflow: hidden; /* Hides text that overflows the container */
+        animation: typing 6s steps(30, end) infinite alternate; /* Animation properties */
+      }
+  
+      @keyframes typing {
+        from { width: 0; } /* Starts with no width */
+        to { width: 100%; } /* Ends with full width */
+      }
+    </style>
   </section><!-- End Hero -->
 
   <main id="main">
